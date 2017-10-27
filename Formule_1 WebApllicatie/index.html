@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+	    <link rel="stylesheet" type="text/css" media="all" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700i" rel="stylesheet">
+    </head>
+    <body>
+    	<script src = "https://d3js.org/d3.v4.min.js"></script>
+    	<script src = "http://d3js.org/topojson.v1.min.js"></script>
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
+		<script type="text/javascript" src="js/country-autocomplete.js"></script>
+		<script src="map.js"></script>
+		<script src="leaderboard.js"></script>
+        <script src="team_leader_board.js"></script>
+        <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+		<script>
+			
+
+		</script>
+    </body>
+	<h1 id='titel_pagina'>Formula 1 information - 2016</h1>
+	
+	<div id="w">
+		<div id="searchfield">
+        	<form><input type="text" name="country" class="biginput" id="autocomplete"></form>
+        	<button class="button" onclick="zoekbalk()">Search</button>
+      </div><!-- @end #searchfield -->
+	</div>
+	<h3 id = 'title1'>Driver Leaderboard</h3>
+        <table id="example" class="display" width="400px"></table>
+        <h3 id='title2'>Team Leaderboard</h3>
+        <table id="example2" class="display" width="400px"></table>
+	
+	<div id="dialog" style = 'display: None' style = 'max-height: 500px'>
+	<div id= 'tekst'></div>
+	</div>
+	
+</html>

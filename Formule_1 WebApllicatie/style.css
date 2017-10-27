@@ -1,0 +1,218 @@
+/** Titel **/
+body {
+	background: lightgray;
+}
+
+#titel_pagina {
+	position: absolute;
+	top:0;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 43px;
+}
+
+/** Algemene dialog **/
+#dialog{
+	max-height: 500px;
+}
+
+
+/** Map **/
+svg {
+    margin-top: 92px;
+	margin-left: 5px;
+    background: #515c5f ;
+}
+
+.country {
+    fill: darkgray;
+    stroke: black;
+    stroke-width: 0.5;
+}
+
+.foto-circuit {
+	width: 220px;
+	float:right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 50px;
+	
+}
+
+table.circuit {
+	width: 350px;
+	
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding-left: 15px;
+}
+
+
+
+/** Zoekfunctie **/
+
+.country-table {
+	max-height: 500px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#w {
+	position: absolute;
+	top:0;
+	margin-top: 32px;
+	margin-left: 688px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #313131;
+	font-size: 62.5%; 
+	line-height: 1; 
+}
+
+/** page structure **/
+
+.button {
+    background-color: #A9A9A9;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+#content {
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  padding: 0px 240px;
+}
+
+#searchfield { display: block; width: 100%; text-align: center; margin-bottom: 35px; }
+
+#searchfield form {
+  display: inline-block;
+  background: #eeefed;
+  padding: 0;
+  margin: 0;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px 0 0 0;
+}
+#searchfield form .biginput {
+  width: 200px;
+  height: 20px;
+  padding: 0 10px 0 10px;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  color: black;
+  font-weight:normal;
+  font-size: 1.5em;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #fff; cursor: default; overflow: auto; }
+.autocomplete-suggestion { padding: 10px 5px; font-size: 1.2em; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #f0f0f0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399ff; }
+
+/** Leaderboards **/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#title1 {
+	width:400px;
+    margin-right: 10px;
+	position:absolute;
+	top:0;
+	margin-top: 40px;
+	right:0;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+#title2{
+	width:400px;
+    margin-right: 10px;
+	top:0;
+	right: 0;
+	margin-top:375px;
+    position: absolute;
+	margin-right:5px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+ #example_wrapper{
+	width:400px;
+    
+	position:absolute;
+	top:0;
+	margin-top: 55px;
+	right:0;
+	margin-right:15px;
+	font-size: 12px;
+}
+
+ #example2_wrapper{
+	width:400px;
+    margin-right: 15px;
+	right: 0;
+	top: 0;
+	margin-top: 390px;
+	position: absolute;
+	font-size: 12px;
+}
+#example_info, #example2_info, #example2_paginate,#example_length, #example2_length{
+	display:none;
+}
+
+#flag{
+    width: 22px;
+	height: auto;
+}
+
+*.odd { 
+    background-color: #ff4d4d !important;
+    height: 22px !important;
+    text-align: center;
+}
+.even{
+    background-color: #ffb3b3 !important;
+    height: 22px !important;
+    text-align: center;
+}
+
+.sorting_1{
+    background-color: #ff1a1a !important;
+}
+td{
+    padding:0px !important;
+}
+
+#example_length{
+    color:black !important;
+}
+#example_filter{
+    color:black !important;
+}
+#example_info{
+    color:black !important;
+}
